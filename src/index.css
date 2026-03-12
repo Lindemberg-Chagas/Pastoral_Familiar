@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-church-blue: #1a365d;
+  --color-church-gold: #d4af37;
+  --color-church-gold-light: #eab308;
+  --color-church-cream: #fefae0;
+  --color-church-bg-light: #f8f9fa;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.hero-bg {
+  background-color: #1a365d;
+  background-image: linear-gradient(rgba(26, 54, 93, 0.8), rgba(26, 54, 93, 0.9)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuDbG58CGWtzZskawDS1JHSJagrO_q26_KfF76sSZBJmtlr8dfGTJIRhCnoNYGmDuhLHPoGIKvjrzbeWLCODIWVFCspYNGTgDpUjf4HU1ZlCvpleJ1SE1Rh7wWas63cNw-L7QchxKfZeZc_QhNGd02VaDNgZV7cu-veUSSjbZcFTRpFFRzV0lIYBapvH6RltqwxjDGIXAGj6s6BcOhPZNcDgogmxJVaotSeAeA1XREcJjkh8GJFH20OPAkuLGiIg7DYtI9xCkje1UeA');
+  background-size: cover;
+  background-position: center;
+}
